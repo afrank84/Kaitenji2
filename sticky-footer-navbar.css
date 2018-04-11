@@ -2,11 +2,12 @@
 -------------------------------------------------- */
 html {
   position: relative;
-  min-height: 100%;
+  min-height: 100%; /* make sure it is at least as tall as the viewport */
 }
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  height: 100%; /* force the BODY element to match the height of the HTML element */
 }
 .footer {
   position: absolute;
@@ -15,7 +16,7 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
+  background-color:#343a40;
 }
 
 
@@ -24,7 +25,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 60px 15px 0; /*Keeps the Containers from hiding behined menu*/
 }
 
 .footer > .container {
@@ -36,15 +37,48 @@ code {
   font-size: 80%;
 }
 
+
+
+/* App Desktop View */
+
 .boxA{
   background-color: aqua;
   border: 1px;
+  height: 100vh;
 }
 .boxB{
   background-color: yellow;
   border: 1px;
+  height: 100vh;
+  
+}
+
+.boxB .card{
+  margin: 5px auto;
+  background-color: lightslategray;
+}
+.boxB .card-body{ /*Content inside of Card / Text & Stuff */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.boxB .progress{
+  margin-bottom: 5px; 
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 25px;
+}
+.boxB .custom-select {
+  font-size: 20px;
+  font: bold;
+  color: #ffffff;
+  background-color: #343a40;
+}
+.boxBsubmit{
+  background-color: #2bbbad;
 }
 .boxC{
   background-color: red;
   border: 1px;
+  height: 100vh;
 }
