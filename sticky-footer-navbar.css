@@ -35,3 +35,16 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+.boxA{
+  background-color: aqua;
+  border: 1px;
+}
+.boxB{
+  background-color: yellow;
+  border: 1px;
+}
+.boxC{
+  background-color: red;
+  border: 1px;
+}
