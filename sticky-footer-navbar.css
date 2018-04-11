@@ -10,6 +10,13 @@ body {
   margin-bottom: 60px;
   height: 100%; /* force the BODY element to match the height of the HTML element */
   width: 100vw;
+  background: -moz-linear-gradient(-45deg,  #EA5C54  0%, #bb6dec 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#EA5C54 ), color-stop(100%,#bb6dec)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #EA5C54  0%,#bb6dec 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #EA5C54  0%,#bb6dec 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #EA5C54  0%,#bb6dec 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #EA5C54  0%,#bb6dec 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EA5C54 ', endColorstr='#bb6dec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .footer {
   position: absolute;
@@ -48,8 +55,8 @@ code {
 }
 
 .boxA{
-  background-color: aqua;
-  border: 1px;
+  border-style: solid;
+  border-color: #ffffff; 
   height: 100vh;
   width: 33%;
 
@@ -58,8 +65,8 @@ code {
   margin: 0px auto;
 }
 .boxB{
-  background-color: yellow;
-  border: 1px;
+  border-style: solid;
+  border-color: #ffffff;
   height: 100vh;
   width: 33%;
 }
@@ -95,8 +102,8 @@ code {
   background-color: #2bbbad;
 }
 .boxC{
-  background-color: red;
-  border: 1px;
+  border-style: solid;
+  border-color: #ffffff;
   height: 100vh;
   width: 33%;
 }
