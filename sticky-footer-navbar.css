@@ -18,6 +18,9 @@ body {
   background: linear-gradient(135deg,  #EA5C54  0%,#bb6dec 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EA5C54 ', endColorstr='#bb6dec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+h3{
+  text-align: center;
+}
 .footer {
   position: absolute;
   bottom: 0;
@@ -46,7 +49,9 @@ code {
   font-size: 80%;
 }
 
-
+.add-shadow{
+  box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /* App Desktop View */
 #desktopAppView .row, .container{
