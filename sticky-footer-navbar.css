@@ -68,12 +68,14 @@ code {
   margin-right: 5px;
   height: 25px;
 }
+/*
 .boxB .custom-select {
   font-size: 20px;
   font: bold;
   color: #ffffff;
   background-color: #343a40;
 }
+*/ 
 .boxBsubmit{
   background-color: #2bbbad;
 }
